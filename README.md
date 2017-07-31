@@ -64,12 +64,6 @@ Once you download, remember to change this secrets file as needed (i.e. you can'
   * *Reasoning behind secrets.py*
 
     In our shop we make use of secrets.py so there's no (well, little) chance that we'll accidentally share our internal login credentials with external users (e.g. by accidentally uploading to GitHub our passwords and usernames hardcoded into scripts).  If you DO modify secrets.py to include your own "real" usernames and passwords, be certain to add secrets.py to your gitignore files.
-    
-
-## [proPublica.py](../master/proPublica.py)
-This script creates and saves a separate file called _proPublicaRecord.json_ containing the results of a proPublica search for "animal."
-
-You can run this script by typing `python proPublica.py` in cygwin/the Mac terminal. Remember that you need to be running cygwin/the Mac terminal from the directory where the script is saved, and an output file named _proPublicaRecord.json_ will appear in the same directory.
 
 
 ## [postContainerProfiles.py](../master/postContainerProfiles.py)
